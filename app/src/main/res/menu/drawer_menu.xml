@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="General">
+        <menu>
+            <item
+                android:id="@+id/nav_home"
+                android:icon="@drawable/ic_home"
+                android:title="Home" />
+            <item
+                android:id="@+id/nav_gallery"
+                android:icon="@drawable/ic_image"
+                android:title="Gallery" />
+            <item
+                android:id="@+id/nav_slideshow"
+                android:icon="@drawable/ic_slideshow"
+                android:title="Slideshow" />
+        </menu>
+    </item>
+
+    <item android:title="Share">
+        <menu>
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@drawable/ic_account_box"
+                android:title="Gallery" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share"
+                android:title="Slideshow" />
+        </menu>
+    </item>
+</menu>
